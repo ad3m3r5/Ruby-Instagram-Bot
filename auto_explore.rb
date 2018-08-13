@@ -19,7 +19,7 @@ browser.text_field(:name => "username").set "#{username}"
 browser.text_field(:name => "password").set "#{password}"
 
 # Click Login Button
-browser.button(:class => '_5f5mN jIbKX KUBKM yZn4P').click
+browser.button(:class => '_5f5mN       jIbKX KUBKM      yZn4P   ').click
 sleep(2)
 puts "Log in successful"
 
