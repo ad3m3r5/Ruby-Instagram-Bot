@@ -51,7 +51,7 @@ loop do
   }
   puts "--------- #{Time.now} ----------"
   break if unfollow_counter >= MAX_UNFOLLOWS
-  sleep(30) # Sleep 1 hour
+  sleep(30) # Sleep 30 seconds
 end
 
 ap "Followed #{follow_counter} users and unfollowed #{unfollow_counter} in #{((Time.now - start_time)/60).round(2)} minutes"
